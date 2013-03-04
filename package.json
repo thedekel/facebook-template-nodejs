@@ -1,8 +1,19 @@
 {
   "name":    "facebook-template-node",
-  "version": "0.0.1",
-
+  "version": "0.0.2",
   "description": "Template app for Heroku / Facebook integration, Node.js language",
+
+  "contributors":[
+  {
+    "name": "heroku",
+    "url": "http://heroku.com"
+  },
+  {
+    "name": "Yuval Dekel",
+    "email": "thedekel@gmail.com",
+    "url": "http://thedekel.net"
+  }
+    ],
 
   "dependencies": {
     "async":     "0.1.18",
@@ -12,6 +23,7 @@
   },
 
   "engines": {
-    "node": "0.6.x"
+    "node": "0.8.x",
+    "npm": "1.2"
   }
 }
